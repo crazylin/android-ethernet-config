@@ -1,0 +1,30 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# 大文件
+gradle-8.5-bin.zip
+*.rar
+*.img
+*.apk
+*.zip
+
+# 固件包
+T813_B15_V4.0.35_20260323/
+
+# 临时文件
+/D:/ethbuild/
+bootpath.txt
+screen.png
+magisk_screen.png
+
+# Magisk 模块构建产物（zip 和 apk 已在上面排除）
+magisk-module/system/priv-app/EthernetConfig/EthernetConfig.apk

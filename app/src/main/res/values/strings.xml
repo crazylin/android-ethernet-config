@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">以太网配置</string>
+
+    <!-- Interface selection -->
+    <string name="label_interface_select">以太网接口</string>
+    <string name="hint_interface_name">接口名称（如 eth0）</string>
+    <string name="btn_refresh">刷新</string>
+    <string name="no_interface_found">未发现以太网接口</string>
+
+    <!-- Mode switch -->
+    <string name="label_network_mode">网络模式</string>
+    <string name="mode_dhcp">DHCP（自动获取）</string>
+    <string name="mode_static">静态 IP（手动配置）</string>
+
+    <!-- Static IP form -->
+    <string name="label_static_config">静态 IP 配置</string>
+    <string name="hint_ip_address">IP 地址</string>
+    <string name="hint_subnet_mask">子网掩码</string>
+    <string name="hint_gateway">网关</string>
+    <string name="hint_primary_dns">主 DNS 服务器（必填）</string>
+    <string name="hint_secondary_dns">备用 DNS 服务器（选填）</string>
+
+    <!-- Network status panel -->
+    <string name="label_network_status">网络状态</string>
+    <string name="status_connected">已连接</string>
+    <string name="status_disconnected">未连接</string>
+    <string name="label_current_mode">当前模式：</string>
+    <string name="label_current_ip">IP 地址：</string>
+    <string name="label_current_mask">子网掩码：</string>
+    <string name="label_current_gateway">网关：</string>
+    <string name="label_current_dns">DNS：</string>
+    <string name="value_not_available">--</string>
+
+    <!-- Buttons -->
+    <string name="btn_apply_config">应用配置</string>
+
+    <!-- Messages -->
+    <string name="msg_config_success">配置应用成功</string>
+    <string name="msg_config_loading">正在应用配置…</string>
+    <string name="msg_no_ethernet">未检测到以太网连接</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_error_title">配置失败</string>
+    <string name="dialog_gateway_warning_title">网关警告</string>
+    <string name="dialog_gateway_warning_message">网关不在子网范围内，是否仍要应用此配置？</string>
+    <string name="dialog_btn_ok">确定</string>
+    <string name="dialog_btn_cancel">取消</string>
+    <string name="dialog_btn_continue">继续</string>
+</resources>

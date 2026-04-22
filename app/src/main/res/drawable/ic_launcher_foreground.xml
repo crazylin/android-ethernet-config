@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 以太网网口图标 -->
+
+    <!-- 网口外框 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,38 L74,38 L74,70 L68,76 L40,76 L34,70 Z" />
+
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M36,40 L72,40 L72,68 L67,74 L41,74 L36,68 Z" />
+
+    <!-- 网口内部触点（8个，模拟RJ45） -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,44 L44,44 L44,54 L42,54 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M47,44 L49,44 L49,54 L47,54 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,44 L54,44 L54,54 L52,54 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M57,44 L59,44 L59,54 L57,54 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M62,44 L64,44 L64,54 L62,54 Z" />
+
+    <!-- 网口底部卡扣 -->
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M48,60 L60,60 L60,68 L48,68 Z" />
+
+    <!-- 网线（从底部延伸） -->
+    <path
+        android:fillColor="#1565C0"
+        android:strokeColor="#1565C0"
+        android:strokeWidth="3"
+        android:pathData="M54,76 L54,88" />
+
+</vector>

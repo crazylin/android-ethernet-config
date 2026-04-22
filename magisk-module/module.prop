@@ -1,0 +1,6 @@
+id=ethernet-config
+name=Ethernet Config System App
+version=v1.0
+versionCode=1
+author=EthernetConfig
+description=Install EthernetConfig as a privileged system app with CONNECTIVITY_INTERNAL permission
